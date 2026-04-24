@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Building the myApp application"
+g++ -Wall molloy_LED.cpp myApp.cpp -o myApp
+echo "Finished"
+
