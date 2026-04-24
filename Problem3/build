@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Building the myApp application"
+g++ -Wall AnalogIn.cpp GPIO.cpp molloy_LED.cpp test_all_App.cpp -o test_all_App -pthread
+echo "Finished"
+
